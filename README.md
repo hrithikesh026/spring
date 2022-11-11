@@ -15,4 +15,4 @@ FetchType - EAGER, LAZY, Cascade, Insertable, updatable
 -Repository annotated class  using 
 @Query
 @Query(nativeQuery = true)
-@Query(nativeQuery = true, name = "find")
+@NamedQuery(nativeQuery = true, name = "find") and @NamedNativeQuery()
